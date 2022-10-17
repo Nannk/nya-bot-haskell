@@ -11,9 +11,9 @@ for now the bots have limitations:
 - the bots dont reflect the users status
 - add users takes time bc each user has its own individual bot (also litters the server)
 - bots ignore :
-  - Messages that starts with `\>`or `nya`
-  - Messages with attachments
-  - Messages with custom escape characters (like `https://cdn.discordapp.com/emojis/`)
+  - Messages that starts with `nya`
+  - Messages with attachments --not yet implemented
+  - Messages with custom escape characters (like `https://cdn.discordapp.com/emojis/`) --not yet implemented
 
 ### Not yet implemented in this rewrite:
 - to change the pfp use `nya|pfpchange|<link_to_the_new_profile_picture>`
