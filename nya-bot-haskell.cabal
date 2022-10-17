@@ -6,11 +6,11 @@ cabal-version: 1.12
 
 name:           nya-bot-haskell
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/nya-bot-haskell#readme>
+description:    Please see the README on GitHub at <https://github.com/Nannk/nya-bot-haskell#readme>
 homepage:       https://github.com/Nannk/nya-bot-haskell#readme
 bug-reports:    https://github.com/Nannk/nya-bot-haskell/issues
 author:         Nannk
-maintainer:     nannk@nannk.xyz
+maintainer:     nannk@nannk.xyzm
 copyright:      2022 Nannk
 license:        BSD3
 license-file:   LICENSE

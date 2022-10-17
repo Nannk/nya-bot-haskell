@@ -7,13 +7,11 @@ import Text.Regex.Base
 import Text.Regex.Posix 
 
 import Data.Text
-import Data.List 
+import  qualified Data.List 
 import Data.Text.IO
 
 import System.Environment
-import qualified GHC.TypeLits as Data
-import GHC.RTS.Flags (TraceFlags(user))
-import qualified GHC.Base as Data.Text
+import Data.List (union)
 
 mtoken :: IO Text
 mtoken = do
@@ -33,7 +31,8 @@ nyabot = do
         {
         discordToken = token
         ,discordOnEvent = eventHandler user
-        ,discordOnLog = Data.Text.IO.putStrLn 
+        ,discordOnLog = Data.Text.IO.putStrLn
+        ,discordOnEnd = Prelude.putStrLn "ended"
         }
     
     Data.Text.IO.putStrLn userFacingError
@@ -68,4 +67,13 @@ addnya :: Text -> Text
 addnya m = replace (pack (unpack m =~ "([',?!.;:\"])$") ) ( pack ( unpack m =~ ",nya\1") ) m
 
 escapeFlags :: Message -> Bool
-escapeFlags m = Data.Text.isPrefixOf (pack "nya") (messageContent m)
+escapeFlags m 
+  | Data.Text.isPrefixOf (pack "nya") (messageContent m) = False
+  | Data.Text.isPrefixOf (pack "https://") (messageContent m) = False 
+  | hasAttachments m = False
+  | otherwise = True
+
+hasAttachments :: Message -> Bool
+hasAttachments m = Data.List.null $ messageAttachments m 
+
+

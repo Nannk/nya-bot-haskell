@@ -297,14 +297,14 @@ packages:
       sha256: ac30cb48175d969b839bbcef4b8b1dc3d970751fdf030fcd4df34e0fb62e228a
       size: 435
   original:
-    hackage: http-client-tls-0.3.6.1@sha256:c986b98a06ddde487fcfe139f024717d9263c61037ff45a4c63dae93b290c27f,2042
+    hackage: http-client-tls-0.3.6.1
 - completed:
     hackage: http-types-0.12.3@sha256:f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9,2035
     pantry-tree:
       sha256: c9b77e1ba204fffbe4e1be80412bc48e47440a07e4b7db4cdc77d573a3e21b9a
       size: 833
   original:
-    hackage: http-types-0.12.3@sha256:f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9,2035
+    hackage: http-types-0.12.3
 - completed:
     hackage: indexed-traversable-0.1.2@sha256:52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350,2533
     pantry-tree:

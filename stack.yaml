@@ -83,8 +83,8 @@ extra-deps:
 - entropy-0.4.1.10@sha256:219a10d58386831dd742982e85841c16822f5c219b7cc6e5afff86f956c5b935,2784
 - generically-0.1@sha256:16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af,1024
 - hashable-1.4.1.0@sha256:50b2f002c68fe67730ee7a3cd8607486197dd99b084255005ad51ecd6970a41b,5019
-- http-client-tls-0.3.6.1@sha256:c986b98a06ddde487fcfe139f024717d9263c61037ff45a4c63dae93b290c27f,2042
-- http-types-0.12.3@sha256:f35229edb1bc7b3ae27f961b2407dadb5bfa69d43a8f5337ab46cdc79ca4afe9,2035
+- http-client-tls-0.3.6.1
+- http-types-0.12.3
 - indexed-traversable-0.1.2@sha256:52a1b708abd921f91a5977f6ae53c4aa2b33f7c30be0fff17173f658b34c5350,2533
 - integer-logarithms-1.0.3.1@sha256:d59bfd1d39808217af2b68789d3c0e57cb7199d47405a276060d88fef4f4017d,3246
 - iproute-1.7.12@sha256:85d181599fab8ceebf4c849110ad571bea2834d6c8c95ae7da33856c42453f40,2999
@@ -150,7 +150,6 @@ extra-deps:
 - pem-0.2.4@sha256:cc8e62118b783e284dc0fa032f54fe386a3861a948ec88079370a433c103a705,1441
 - regex-base-0.94.0.2
 - regex-posix-0.96.0.1
-
 
 
   # Override default flag values for local packages and extra-deps
