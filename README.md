@@ -2,6 +2,8 @@
 A rewrite of my python bot (https://github.com/Nannk/bots) 
 > simple bot that adds `nya~` to the end of each message for a selected user.
 
+#### Not tested yet
+
 ### How to use
 
 for now the bots have limitations:
